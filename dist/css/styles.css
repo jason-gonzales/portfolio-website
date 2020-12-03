@@ -105,6 +105,36 @@ body {
     color:  #fed136;
 }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s; }
+  @media (max-width: 56.25em) {
+    .feature-box {
+      padding: 2rem; } }
+  .feature-box__img {
+    max-width: 180px;
+    height: 100px;
+    margin-bottom: 1rem; }
+    @media (max-width: 56.25em) {
+      .feature-box__img {
+        max-width: 100px; } }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(to right, #b8cfc6, #75d9b2);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent; }
+    @media (max-width: 56.25em) {
+      .feature-box__icon {
+        margin: 0; } }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
