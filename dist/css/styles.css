@@ -68,6 +68,26 @@ body {
   text-align: left;
   background-color: #fff;
 }
+.portfolio-github {
+    background-color: #fed136;
+    width: 40%;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    margin: 15px auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    filter: drop-shadow(0 0 0.2rem rgb(230, 230, 230));
+}
+
+.portfolio-github:hover {
+    color: #fff;
+    background-color: #6c757d;
+    transition: background-color 0.3 ease-in-out;
+}
 
 .social_links {
     padding: 0;
