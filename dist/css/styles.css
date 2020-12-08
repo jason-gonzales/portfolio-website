@@ -68,6 +68,23 @@ body {
   text-align: left;
   background-color: #fff;
 }
+
+span {
+    opacity: 0;
+    animation: fade 1s ease-in forwards;
+}
+span:nth-of-type(1){
+    animation-delay: 1.5s;
+}
+span:nth-of-type(2){
+    animation-delay: 2s;
+}
+
+@keyframes fade {
+    to {
+        opacity: 1;
+    }
+}
 .portfolio-github {
     background-color: #fed136;
     width: 40%;
@@ -6400,9 +6417,9 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+/* .d-flex {
   display: flex !important;
-}
+} */
 
 .d-inline-flex {
   display: inline-flex !important;
@@ -10209,6 +10226,19 @@ header.masthead {
 
   background-attachment: scroll;
 
+}
+
+.masthead-subheading {
+    opacity: 0;
+    transform:translateX(-50px);
+    animation: slideLeft 2.5s ease-out 1.5s forwards;
+}
+
+@keyframes slideLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
