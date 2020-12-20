@@ -130,7 +130,7 @@ span:nth-of-type(2){
     background-color: #6c757d;
     transition: background-color 0.3 ease-in-out;
     text-decoration: none;
-    
+
 }
 
 .social_links {
@@ -10247,6 +10247,10 @@ img::-moz-selection {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
+}
+
+#mainNav.name-navbar {
+    color:red;
 }
 header.masthead {
   padding-top: 10.5rem;
