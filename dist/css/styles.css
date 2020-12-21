@@ -10233,6 +10233,7 @@ img::-moz-selection {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10242,7 +10243,7 @@ img::-moz-selection {
     height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
-    margin-right: 1rem;
+    margin: 0 3rem 0 3rem;
   }
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
@@ -10250,8 +10251,18 @@ img::-moz-selection {
 }
 
 #mainNav.name-navbar {
-    color:red;
+    color:#fed136;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+
+
+
 }
+.name-hidden {
+display:none;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;

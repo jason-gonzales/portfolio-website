@@ -46,9 +46,12 @@
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
             $("#mainNav").addClass("name-navbar");
+            $("#name-nav").removeClass("name-hidden");
+
         } else {
             $("#mainNav").removeClass("navbar-shrink");
             $("#mainNav").removeClass("name-navbar");
+            $("#name-nav").addClass("name-hidden");
         }
     };
     // Collapse now if page is not at top
