@@ -134,7 +134,7 @@ span:nth-of-type(2){
 }
 
 .social_links {
-    padding: 0;
+    padding-left: 15px;
     display: block;
     list-style: none;
     text-align: center;
@@ -10329,12 +10329,15 @@ header.masthead .masthead-heading {
     /* margin-bottom: 4rem; */
   }
 }
+
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   /* min-height: 24rem; */
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
