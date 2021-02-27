@@ -10184,7 +10184,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #314e52;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10192,7 +10192,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #212529;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #f0a500;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10234,7 +10234,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #314e52;
 
   }
   #mainNav.navbar-shrink .navbar-brand {
