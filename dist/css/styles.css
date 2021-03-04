@@ -611,6 +611,12 @@ mark,
   object-fit:contain;
 }
 
+.img-portfolio {
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10120,7 +10126,7 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
